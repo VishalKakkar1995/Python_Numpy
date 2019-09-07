@@ -5,6 +5,7 @@ Some basic programs I worked on using Numpy
 
 #1: Write a program which will find all such numbers which are divisible by 7 
 
+
 count=0
 for i in range(2000,3201):
     if ((i%7==0) & (i%5!=0)):
@@ -14,7 +15,9 @@ print ("count = ",count)
 
 
 
+
 #2. Write a program which can compute the factorial of a given numbers.   
+
 
 print ('Enter a number for factorial')
 a= int(input ())
@@ -32,7 +35,9 @@ print('The factoial of input number is = ',(b))
 
 
 
+
 #3. With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+
 
 print("Enter the number upto which you need the squared series")
 
@@ -46,7 +51,9 @@ print('The final result is',d)
 
 
 
+
 #4. Write a program which accepts a sequence of "comma-separated" numbers from console and generate a list and a tuple which contains every number.
+
 
 n=int(input(" Enter the number of elements you want in the list/tupple : ",))
 L1=[]
@@ -65,6 +72,7 @@ print("The tuple is",convert(L1))
 
 
 
+
 #6. Write a program that accepts a comma separated sequence of words as input and 
 
 
@@ -80,6 +88,7 @@ print("The Entered unsorted list is",L1)
 L1.sort()
 
 print("The sorted list is",L1)
+    
     
     
 
@@ -104,7 +113,9 @@ print(t3)
 
 
 
+
 #8. Write a program that accepts a sentence and calculate the number of upper case 
+
 
 a=input("Enter some data  ")
 
@@ -124,6 +135,7 @@ print("Number of upper charachters in the word = ",countu)
 
 
 
+
 #9. A website requires the users to input username and password to register. Write a program to check the validity of password
 #input by users. Following are the criteria for checking the password:
 #1. At least 1 letter between [a-z]
@@ -134,6 +146,7 @@ print("Number of upper charachters in the word = ",countu)
 #5. Maximum length of transaction password: 12
 #Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. 
 #Passwords that match the criteria are to be printed, each separated by a comma.
+
 
 a=int(input("Enter the number of passwords you want =" ,))
 L1=[]
@@ -170,10 +183,12 @@ for k in L1:
     
     
     
+    
 #10. Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books.
 #But Python has a built-in document function for every built-in functions.
 #Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
 #And add document for your own function
+    
     
 print("1. Abs funtion is for = ",abs.__doc__)
 print("2. Int funtion is for = ",int.__doc__)
