@@ -1,0 +1,17 @@
+# Write a program which can compute the factorial of a given numbers. 
+
+
+
+print ('Enter a number for factorial')
+a= int(input ())
+b=1
+
+print('The series is = ')
+for i in range(a,0,-1):
+    if (i!=a):
+        print(" , ",(i))
+    else:
+        print(a)
+    b=i*b
+    
+print('The factoial of input number is = ',(b))
