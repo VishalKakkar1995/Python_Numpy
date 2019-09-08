@@ -1,0 +1,18 @@
+# Write a program which accepts a sequence of "comma-separated" numbers from console and generate a list and a tuple which contains every number.
+
+
+
+n=int(input(" Enter the number of elements you want in the list/tupple : ",))
+L1=[]
+
+for i in range(0,n,1):
+    T1=int(input())
+    
+    L1.append(T1)
+    
+print("The list is",L1)
+
+def convert(L1):
+    return(tuple(L1))
+           
+print("The tuple is",convert(L1))
