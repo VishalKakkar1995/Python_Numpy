@@ -1,0 +1,16 @@
+# Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+
+
+
+ a=int(input("Enter the number of words you want =" ,))
+L1=[]
+
+for i in range (0,a,1):
+    b=input("Enter the words ",)
+    L1.append(b)
+    
+print("The Entered unsorted list is",L1)
+
+L1.sort()
+
+print("The sorted list is",L1)
