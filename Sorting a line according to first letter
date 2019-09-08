@@ -1,0 +1,19 @@
+# Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
+
+
+
+a=input("Enter the data : ")
+t1=a.split()
+
+t2=sorted(t1)
+t3=unique(t2)
+
+
+def unique(t2):
+    
+    return list(set(t2))
+
+
+print(t1)
+print(t2)
+print(t3)
